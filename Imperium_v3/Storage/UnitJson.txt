@@ -1,0 +1,262 @@
+{
+	"Units": [ {
+			"nation": "CAR",
+			"fullname": "Carthagian Elephant",
+			"health": 100,
+			"attack": 10,
+			"movement": 4,
+			"unitIconIndex": 0,
+			"unitType": "Cav"
+		}, {
+			"nation": "CAR",
+			"fullname": "Carthagian Heavy Cavalry",
+			"health": 100,
+			"attack": 10,
+			"movement": 4,
+			"unitIconIndex": 1,
+			"unitType": "Cav"
+		}, {
+			"nation": "CAR",
+			"fullname": "Carthagian Light Cavalry",
+			"health": 100,
+			"attack": 10,
+			"movement": 4,
+			"unitIconIndex": 2,
+			"unitType": "Cav"
+		}, {
+			"nation": "CAR",
+			"fullname": "Carthagian Hoplite",
+			"health": 100,
+			"attack": 10,
+			"movement": 2,
+			"unitIconIndex": 3,
+			"unitType": "Inf"
+		}, {
+			"nation": "CAR",
+			"fullname": "Carthagian Slinger",
+			"health": 100,
+			"attack": 10,
+			"movement": 2,
+			"unitIconIndex": 4,
+			"range": 3,
+			"unitType": "Rng"
+		}, {
+			"nation": "ROM",
+			"fullname": "Roman Legionary",
+			"health": 100,
+			"attack": 10,
+			"movement": 4,
+			"unitIconIndex": 5,
+			"unitType": "Skm"
+		}, {
+			"nation": "ROM",
+			"fullname": "Roman Archer",
+			"health": 100,
+			"attack": 10,
+			"movement": 4,
+			"unitIconIndex": 6,
+			"range": 5,
+			"unitType": "Rng"
+		}, {
+			"nation": "ROM",
+			"fullname": "Roman Heavy Cavalry",
+			"health": 100,
+			"attack": 10,
+			"movement": 4,
+			"unitIconIndex": 7,
+			"unitType": "Cav"
+		}, {
+			"nation": "ROM",
+			"fullname": "Roman Light Cavalry",
+			"health": 100,
+			"attack": 10,
+			"movement": 4,
+			"unitIconIndex": 8,
+			"unitType": "Cav"
+		}, {
+			"nation": "ROM",
+			"fullname": "Roman Skirmisher",
+			"health": 100,
+			"attack": 10,
+			"movement": 4,
+			"unitIconIndex": 9,
+			"unitType": "Skm"
+		}, {
+			"nation": "PER",
+			"fullname": "Persian Immortal",
+			"health": 100,
+			"attack": 10,
+			"movement": 4,
+			"unitIconIndex": 10,
+			"unitType": "Inf"
+		}, {
+			"nation": "PER",
+			"fullname": "Persian Archer",
+			"health": 100,
+			"attack": 10,
+			"movement": 4,
+			"unitIconIndex": 11,
+			"range": 5,
+			"unitType": "Rng"
+		}, {
+			"nation": "PER",
+			"fullname": "Persian Elephant",
+			"health": 100,
+			"attack": 10,
+			"movement": 4,
+			"unitIconIndex": 12,
+			"unitType": "Cav"
+		}, {
+			"nation": "PER",
+			"fullname": "Persian Heavy Cavalry",
+			"health": 100,
+			"attack": 10,
+			"movement": 4,
+			"unitIconIndex": 13,
+			"unitType": "Cav"
+		}, {
+			"nation": "PER",
+			"fullname": "Persian Light Cavalry",
+			"health": 100,
+			"attack": 10,
+			"movement": 4,
+			"unitIconIndex": 14,
+			"unitType": "Cav"
+		}, {
+			"nation": "PER",
+			"fullname": "Persian Sparabara",
+			"health": 100,
+			"attack": 10,
+			"movement": 4,
+			"unitIconIndex": 15,
+			"unitType": "Inf"
+		}, {
+			"nation": "GRE",
+			"fullname": "Greek Companion Cavalry",
+			"health": 100,
+			"attack": 10,
+			"movement": 4,
+			"unitIconIndex": 16,
+			"unitType": "Cav"
+		}, {
+			"nation": "GRE",
+			"fullname": "Greek Archer",
+			"health": 100,
+			"attack": 10,
+			"movement": 4,
+			"unitIconIndex": 17,
+			"range": 5,
+			"unitType": "Rng"
+		}, {
+			"nation": "GRE",
+			"fullname": "Greek Light Cavalry",
+			"health": 100,
+			"attack": 10,
+			"movement": 4,
+			"unitIconIndex": 18,
+			"unitType": "Cav"
+		}, {
+			"nation": "GRE",
+			"fullname": "Greek Hoplite",
+			"health": 100,
+			"attack": 10,
+			"movement": 4,
+			"unitIconIndex": 19,
+			"range": 2,
+			"unitType": "Inf"
+		}, {
+			"nation": "GRE",
+			"fullname": "Greek Peltasts",
+			"health": 100,
+			"attack": 10,
+			"movement": 4,
+			"unitIconIndex": 20,
+			"range": 2,
+			"unitType": "Rng"
+		}, {
+			"nation": "HUN",
+			"fullname": "Hunnic Heavy Cavalry",
+			"health": 100,
+			"attack": 10,
+			"movement": 4,
+			"unitIconIndex": 21,
+			"unitType": "Cav"
+		}, {
+			"nation": "HUN",
+			"fullname": "Hunnic Light Cavalry",
+			"health": 100,
+			"attack": 10,
+			"movement": 5,
+			"unitIconIndex": 22,
+			"unitType": "Cav"
+		}, {
+			"nation": "HUN",
+			"fullname": "Hunnic Horse Archer",
+			"health": 100,
+			"attack": 10,
+			"movement": 5,
+			"unitIconIndex": 23,
+			"range": 4,
+			"unitType": "Rng"
+		}, {
+			"nation": "HUN",
+			"fullname": "Hunnic Infantry",
+			"health": 100,
+			"attack": 10,
+			"movement": 2,
+			"unitIconIndex": 24,
+			"unitType": "Inf"
+		}, {
+			"nation": "HUN",
+			"fullname": "Hunnic Archer",
+			"health": 100,
+			"attack": 10,
+			"movement": 2,
+			"unitIconIndex": 25,
+			"range": 4,
+			"unitType": "Rng"
+		}, {
+			"nation": "GAL",
+			"fullname": "Gallic Heavy Cavalry",
+			"health": 100,
+			"attack": 10,
+			"movement": 2,
+			"unitIconIndex": 26,
+			"unitType": "Cav"
+		}, {
+			"nation": "GAL",
+			"fullname": "Gallic Light Cavalry",
+			"health": 100,
+			"attack": 10,
+			"movement": 2,
+			"unitIconIndex": 27,
+			"unitType": "Cav"
+		}, {
+			"nation": "GAL",
+			"fullname": "Gallic Infantry",
+			"health": 100,
+			"attack": 10,
+			"movement": 2,
+			"unitIconIndex": 28,
+			"unitType": "Inf"
+		}, {
+			"nation": "GAL",
+			"fullname": "Gallic Heavy Infantry",
+			"health": 100,
+			"attack": 10,
+			"movement": 2,
+			"unitIconIndex": 29,
+			"unitType": "Inf"
+		}, {
+			"nation": "GAL",
+			"fullname": "Gallic Chariot",
+			"health": 100,
+			"attack": 10,
+			"movement": 2,
+			"unitIconIndex": 30,
+			"range": 3,
+			"unitType": "Rng"
+		}
+	]
+}
+		
