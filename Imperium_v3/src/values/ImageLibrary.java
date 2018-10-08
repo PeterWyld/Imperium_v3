@@ -1,4 +1,4 @@
-package utilities;
+package values;
 
 
 import java.awt.Image;
