@@ -19,8 +19,12 @@ public class ImageLibrary {
 		initialiseTileImages("imgs/Tiles");
 	}
 	
+	/**
+	 * Fills the attribute unitImgArr with the images in a file
+	 * @param filePath is the name of the file that the unit images should come from
+	 * If an image can't be read then a blank buffered image is created as a substitution
+	 */
 	public void initialiseUnitImages(String filePath) {
-		//loads in the images for units, if load fails then a blank image is created
 		File units = new File(filePath);
 		File[] unitImgs = units.listFiles();
 		unitImgArr = new Image[unitImgs.length];
@@ -37,10 +41,12 @@ public class ImageLibrary {
 		}
 	}
 	
+	/**
+	 * Fills the attribute tileImgArr with the images in a file
+	 * @param filePath is the name of the file that the tile images should come from
+	 * If an image can't be read then a blank buffered image is created as a substitution
+	 */
 	public void initialiseTileImages(String filePath) { 
-		//loads in the images for tiles, if load fails then a blank image is created
-		
-		//This is a separate function from the unit version due to the possibility of wanting to load and unload these separately
 		
 		File tiles = new File(filePath);
 		File[] tileImgs = tiles.listFiles();
@@ -58,13 +64,17 @@ public class ImageLibrary {
 		}
 	}
 	
+	/**
+	 * clears unit image array to reduce memory usage (at possible future processing cost)
+	 */
 	public void unloadUnitImages() {
-		//unloads images for possible memory purposes (at expense of having to load images again in future)
 		unitImgArr = null;
 	}
 	
+	/**
+	 * clears tile image array to reduce memory usage (at possible future processing cost)
+	 */
 	public void unloadTileImages() {
-		//unloads images for possible memory purposes (at expense of having to load images again in future)
 		tileImgArr = null;
 	}
 }

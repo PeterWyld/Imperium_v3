@@ -8,11 +8,19 @@ import java.io.IOException;
 
 import javax.swing.JOptionPane;
 
-class CSVReader {
-	public int[][] intArrCsvReader(String fileName) {
-		//A CSV file reader for CSV files that only have integers in them
-		//If the file has a non integer in it the value for that slot is set to zero
-		//Returns null if failure
+/**
+ * A class that contains some functions for reading CSV (Comma Separated Values) files
+ */
+public class CSVReader {
+	
+	/**
+	 * A CSV file reader for CSV files that only have integers in them
+	 * If the file has a non integer in it the value for that slot is set to zero
+	 * @param fileName is the name of the file that is to be read (include extensions)
+	 * @return The function returns a 2d int array filled with the values in the file in the form (line, value on line)
+	 * If the function fails it returns null
+	 */
+	public static int[][] intArrCsvReader(String fileName) {
 		
 		String line = "0,";
 		String temp = "0,";
@@ -62,6 +70,7 @@ class CSVReader {
 				if(exec instanceof FileNotFoundException) {
 					exec.printStackTrace();
 					JOptionPane.showMessageDialog(null, "File " + fileName + " does not exist", "Error", JOptionPane.INFORMATION_MESSAGE);
+					returnInts = null;
 				}else if(exec instanceof IOException) {
 					exec.printStackTrace();
 					returnInts = null;
@@ -72,9 +81,13 @@ class CSVReader {
 		return returnInts;
 	}
 	
-	/**A CSV file reader for CSV files that only have integers in them.
-		Returns null if failure */
-	public String[][] strArrCsvReader(String fileName) {
+	/**
+	 * A CSV file reader
+	 * @param fileName is the name of the file that is to be read (include extensions)
+	 * @return The function returns a 2d String array filled with the values in the file in the form (line, value on line)
+	 * If the function fails it returns null
+	 */
+	public static String[][] strArrCsvReader(String fileName) {
 		
 		
 		String line = "0,";
